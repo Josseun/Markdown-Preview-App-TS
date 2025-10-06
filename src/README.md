@@ -34,7 +34,7 @@ A comprehensive real-time Markdown editor built with React that provides instant
 3. npm install
 4. npm install tailwindcss @tailwindcss/vite @tailwindcss/typography
 5. npm install marked  
-6. npm install react-router-dom
+6. npm i react-router-dom
 7. npm install lucide-react
 8. npm run dev
 9. http://localhost:5173
