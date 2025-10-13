@@ -12,7 +12,7 @@ function Preview({ text }) {
 
   return (
     <div
-      className="prose prose-lg max-w-none break-all w-full h-full"
+      className="prose prose-lg max-w-none break-all w-full h-screen"
       dangerouslySetInnerHTML={getHTML()}
     />
   );
