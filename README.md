@@ -154,7 +154,7 @@ _Main editor interface with toolbar and live preview_
 
 ### Error Boundary
 
-![Error Boundary]([./assets/Error-Boundary.png](https://github.com/Josseun/Markdown-Preview-App-TS/blob/main/src/assets/404-Page.png))
+![Error Boundary](./assets/404-Page.png)
 _Custom error handling UI_
 
 ### 404 Page
