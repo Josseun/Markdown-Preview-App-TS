@@ -5,9 +5,14 @@ marked.setOptions({
   gfm: true,
 });
 
-function Preview({ text }) {
+interface PreviewProps {
+  text: string;
+}
+
+function Preview({ text }: PreviewProps) {
   const getHTML = () => {
-    return { __html: marked(text) };
+    // marked can return a Promise if async is enabled, but standard usage returns string
+    return { __html: marked(text) as string };
   };
 
   return (
